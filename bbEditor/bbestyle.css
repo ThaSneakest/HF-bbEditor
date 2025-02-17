@@ -1,0 +1,269 @@
+﻿body,table,td,tr { font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+html,body {
+	height:100%;
+	margin:0;
+	padding:0;
+}
+
+body {
+background-color:#FFF;
+color:#000;
+}
+
+
+#head
+{
+	border: 2px solid #000000;
+	margin: 5px;
+	height: 54px;
+	background-color: #FFCC66;
+}
+
+#title
+{
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	font-size: 22px;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#bbe_body
+{
+	font-size: 12px;
+	line-height: normal;
+	background-color: #EFEFEF;
+	border: 2px solid #000000;
+	margin: 5px;
+	padding: 5px;
+}
+
+#bbe_header {
+	height:25px;
+	margin-top:0px;
+	margin-bottom:3px;
+	font-size : 15px;
+	padding:3px;
+	text-align:center;
+	color:#000000;
+	background-color:#FFCC66;
+	background-repeat:repeat-x;
+	display:block;
+}
+
+#bbe_text {
+	border:1px solid #FFFFFF;
+	padding:5px 5px 5px 3px;
+}
+
+.bbe_list 
+{
+     font-family: Verdana, Arial, Helvetica, sans-serif;
+     margin-top: 2px;
+     margin-bottom: 2px;
+	 padding-top: 0px;
+	 padding-bottom: 0px;
+}
+
+.drawbox {
+	font-size : 11px;
+	color : #000000;
+	margin-left: 56px;
+	margin-top: 2px;
+    margin-bottom: 2px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.bbe_code
+{
+	font-family: Courier, 'Courier New' , sans-serif;
+	font-size: 11px;
+	background-color: #FAFAFA;
+	border: #D1D7DC;
+	border-style: solid;
+	border-left-width: 1px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	margin: 5px 56px 5px 56px;
+	font-weight: normal;
+	font-style: normal;
+	color: #800000;
+	overflow: auto;
+	max-height: 400px;
+	white-space: nowrap;
+}
+
+.bbe_quote
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #444444;
+	line-height: 125%;
+	background-color: #FAFAFA;
+	border: #D1D7DC;
+	border-style: solid;
+	border-left-width: 1px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	margin: 5px 56px 5px 56px;
+	padding: 2px 0px 2px 0px;
+	overflow: auto;
+	max-height: 400px;
+	white-space: nowrap;
+}
+
+.bbe_indent
+{
+	margin-left: 5em;
+}
+
+.bbe_indent_2
+{
+	margin-left: 10em;
+}
+
+.bbe_indent_3
+{
+	margin-left: 15em;
+}
+
+.bbe_indent_4
+{
+	margin-left: 20em;
+}
+
+.bbe_indent_5
+{
+	margin-left: 25em;
+}
+
+.bbe_left
+{
+	text-align: left;
+}
+
+.bbe_center
+{
+	text-align: center;
+}
+
+.bbe_right
+{
+	text-align: right;
+}
+
+.subscript{ font-size:xx-small;vertical-align:bottom;} 
+.superscript{ font-size:xx-small;vertical-align:top;} 
+
+.bbe_hr
+{
+    height: 3px;
+    background: #000000;
+}
+
+div.bbc_spoiler 		{ 	}
+div.bbc_spoiler span	{ 	font-weight: bold; }
+div.bbc_spoiler_wrapper	{ 	border: 1px inset #777; padding: 4px; }
+div.bbc_spoiler_content	{      }
+input.bbc_spoiler_show	{ 	width: 45px; font-size: .7em; margin: 0px; padding: 0px; }
+pre.prettyprint 		{ padding: 5px; background: #f8f8f8; border: 1px solid #c9c9c9; overflow: auto; margin-left: 10px; font-size: 11px; line-height: 140%; }
+
+
+/* Bleeping Computer css for special code below
+-- Message boxes --
+[warn][/warn] [info][/info] [reg][/reg] [caution][/caution]
+*/
+
+.message_box 
+{
+    -moz-border-radius: 5px 5px 5px 5px; /* Mozilla (FF, Seamonkey) */
+    -webkit-border-radius: 5px 5px 5px 5px; /* Safari and webkit  */
+    -khtml-border-radius: 5px 5px 5px 5px; /* Konqueror  */
+    border-radius: 5px 5px 5px 5px; /* Opera, Chrome - CSS3 properties: ignore error */
+    border: 1px #97989b solid;
+    width: 70%;
+    margin: 0px auto;
+}
+
+.mb_title_box 
+{
+    -moz-border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -khtml-border-radius: 5px 5px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+.mb_content 
+{
+    padding: 10px;
+    font-size: 13pt;
+}
+
+.mb_contentpre 
+{
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+}
+
+
+.warn_title 
+{
+    background: #f78f8f url(http://www.bleepstatic.com/images/site/icons/warn-32.png) no-repeat 5px 4px;
+    border-bottom: 1px #97989b solid;
+    padding: 7px 0px 5px 40px;
+}
+
+.warn_box 
+{
+    background-color: #fbc3c3;
+}
+
+.info_title 
+{
+    background: #2f8be0 url(http://www.bleepstatic.com/images/site/icons/info-32.png) no-repeat 5px 4px;
+    border-bottom: 1px #1d568a solid;
+    padding: 7px 0px 5px 40px;
+}
+
+.info_box 
+{
+    background-color: #6ab4f8;
+}
+
+.reg_title 
+{
+    background: #14c86e url(http://www.bleepstatic.com/images/site/icons/registry-32.png) no-repeat 5px 4px;
+    border-bottom: 1px #0e6238 solid;
+    padding: 10px 0px 5px 40px;
+}
+
+.reg_box 
+{
+    background-color: #cbf1de;
+}
+
+.caut_title 
+{
+    background: #ece13e url(http://www.bleepstatic.com/images/site/icons/caution-32.png) no-repeat 5px 4px;
+    border-bottom: 1px #beb757 solid;
+    padding: 7px 0px 5px 45px;
+}
+
+.caut_box 
+{
+    background-color: #f9f4b3;
+}
+
+/* end Bleeping special codes */
